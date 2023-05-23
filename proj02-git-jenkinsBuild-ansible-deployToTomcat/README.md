@@ -28,7 +28,7 @@ For the ansible server, launch a anew Azure VM(CentOS-8-free). It runs on port n
 error , while trying to copy the private key into another server.reload sshd after this.
 ##### ![01b](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/01b_EnablePasswdAuthentication.PNG)   
 
-4)In tomcat server also,create ansadmin user amd modify his credentials in the same manner. Both the servers now have this common user.  
+4)In tomcat server also,create ansadmin user and modify that user's credentials in the same manner. Both the servers now have this common user.  
 
 4)In the ansible-server,login as the ansadmin.generate the key by using the command ssh-keygen and copy it to the tomcatserver.It will
 prompt for the ansadmin password.The user  "ansadmin" could login into the tomcat server now.
@@ -57,6 +57,8 @@ prompt for the ansadmin password.The user  "ansadmin" could login into the tomca
 
 Both post build actions are shown below. copying to ansible 
 ##### ![03b1](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/03b1_postBuild-CopyToAnsible.PNG)  
+
+
 
 executing the playbook
 ##### ![03b2](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/03b2_postBuild-executePlaybook.PNG)   
