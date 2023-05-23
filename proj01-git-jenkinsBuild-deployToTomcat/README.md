@@ -46,15 +46,12 @@ Restart the server. Now it will not throw the error and sign in page appears as 
 The username and password required for sign in are configured in the next step. 
 
 b) The credentials of tomcat-users need to be updated to login via mangerapp gui.So we need to edit conf/tomcat-users.xml as shown.
-##### ![07d](https://github.com/jayashree-learnings/devops/blob/main/00_includes/jenkinsTomcat/07d-EditTomctusers.PNG) 
-Below are the credentials given inside tomcat-users tag in xml
+
 
 ```xml
 <role rolename="manager-gui"/>
 <role rolename="manager-script"/>
-<role rolename="manager-jmx"/>
-<role rolename="manager-status"/>
-<user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
+<user username="admin" password="admin" roles="manager-gui, manager-script"/>
 <user username="deployer" password="deployer" roles="manager-script"/>
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
 ```
