@@ -4,7 +4,7 @@ In this project,  a .war file in jenkins is built by integrating the code from g
 1) the built .war file is copied to ansible and   
 2) an ansible playbook is executed.  
 
-In the ansible playbook, the instruction is to copy the .war file from ansible to tomcat so that when the jenkins executes, the playbook the .war file will be copied from the ansible server to tomcat server.  
+In the ansible playbook, the instruction is to copy the .war file from ansible to tomcat so that when the jenkins executes the playbook,the .war file will be copied from the ansible server to tomcat server.  
 
 ### Step 1) jenkins and tomcat set up  
 
