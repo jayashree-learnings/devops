@@ -55,8 +55,10 @@ prompt for the ansadmin password.The user  "ansadmin" could login into the tomca
 
 2) Take one more window for the the post build action and give exec command to execute the playbook "ansible-playbook /opt/playbooks/ccopyfile.yml".  
 
-Both post build actions are shown below 
-##### ![03b1](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/03b1_postBuild-CopyToAnsible.PNG)
+Both post build actions are shown below. copying to ansible 
+##### ![03b1](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/03b1_postBuild-CopyToAnsible.PNG)  
+
+executing the playbook
 ##### ![03b2](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/03b2_postBuild-executePlaybook.PNG)   
 
   3) Apply,save and build the job.  
