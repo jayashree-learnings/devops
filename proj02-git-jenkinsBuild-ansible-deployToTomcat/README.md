@@ -72,7 +72,7 @@ First the .war files get copied from jenkins to ansible-server(/opt/playbooks/we
 The playbook copyfile.yml will be executed then and hence this .war file now present in ansible will be copied to /opt/apache-tomcat-9.0.65/webapps folder of the tomcat server as shown below.  
 ##### ![05b](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/05b-warFileCopiedToTomcatServer.PNG)    
 
-  4) On the successful completion of jenkins job, the web page can be accessed by using the public public of tomcat server as shown.
+  4) On the successful completion of jenkins job, the web page can be accessed by using the public ip of tomcat server as shown.
 ##### ![06](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/06-DisplayWebPage.PNG)
 
 
