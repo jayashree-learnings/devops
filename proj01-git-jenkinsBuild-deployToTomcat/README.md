@@ -56,7 +56,7 @@ b) The credentials of tomcat-users need to be updated to login via mangerapp gui
 <user username="tomcat" password="s3cret" roles="manager-gui"/>
 ```
   
-The roles manger-gui and manger-script are edited and users(tomcat and deployer respectively) are assigned these roles.manger-script role allows programmatic access to tomcat server. Here it helps enables jenkins to copy files from jenkins server and deploy it to tomcat server. manager-gui is just for testing purpose to see if we an access the web gui properly.
+The roles manger-gui and manger-script are edited and users(tomcat,deployer,admin respectively) are assigned these roles.manger-script role allows programmatic access to tomcat server. Here it helps enables jenkins to copy files from jenkins server and deploy it to tomcat server. manager-gui is just for testing purpose to see if we an access the web gui properly.
 
 7) Restart the server. From the web browser sign in as "tomcat" with the configured password . It opens the home page as shown below.
 ##### ![07f](https://github.com/jayashree-learnings/devops/blob/main/00_includes/jenkinsTomcat/07f-signinAStomcat.PNG)
