@@ -50,8 +50,8 @@ prompt for the ansadmin password.The user  "ansadmin" could login into the tomca
 2)In manage jenkins-configuration system, in the SSH servers, for the ansible-server use password based authentication and give the credentials of the user ansadmin.Test the configuration from the dashboard itself.
 ##### ![03a](https://github.com/jayashree-learnings/devops/blob/main/00_includes/02-jenkinsAnsibleTomcat/03a_ansibleServerConfigurationINJenkinsDashboard.PNG)  
 
-3)Create a new free style job and given maven goal as clean install. In post build action, choose "send files/execute commands over ssh"
-1) For the file transfer,specify the source and destination  
+3)Create a new free style job and given maven goal as clean install. In post build action,   
+1) choose "send files/execute commands over ssh". For the file transfer,specify the source and destination  
 
 2) Take one more window for the the post build action and give exec command to execute the playbook "ansible-playbook /opt/playbooks/ccopyfile.yml".  
 
